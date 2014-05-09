@@ -2,10 +2,10 @@
 
 Angular directive for Zurb Pizza Pie Charts 
 
-To find more information about Pizza Pie Charts, consult the [Zurb page of "Pizza Pie Charts"](http://zurb.com/playground/pizza-pie-charts) and the [github of this project](https://github.com/zurb/pizza/)
+To find more information about Pizza Pie Charts, consult the [Zurb page of "Pizza Pie Charts"](http://zurb.com/playground/pizza-pie-charts) and the [github of this project](https://github.com/zurb/pizza/).
 
 
-### First step : HTML
+### First step : HTML and the `pizza` tag
 
 Use the `pizza` tag with the following attributes:
 * pie-id : html unique identifier that will be associated to the chart
@@ -25,7 +25,7 @@ or
 
 ```
 
-### Second step : JS
+### Second step : Controller
 
 You have to define the properties declared in your HTML file :
 
