@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pizza Example</title>
+
+    <link href="libs/pizza/0.2.2/css/vendor/normalize.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="libs/pizza/0.2.2/css/vendor/foundation.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="libs/pizza/0.2.2/css/pizza.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="styles/population.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <script src="libs/pizza/0.2.2/js/vendor/modernizr.js"></script>    
+</head>
+<body ng-app="PopulationApp" ng-controller="PopulationAppCtrl">
+
+    <div ng-controller="PopulationPizzaCtrl">
+        <pizza pie-id="population" data="worldPopulation" 
+            options="pizzaOptions"></pizza>
+    </div>
+
+    <script src="libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="libs/angular/1.2.16/angular.min.js"></script>
+    <script src="libs/pizza/0.2.2/js/vendor/dependencies.js"></script>
+    <script src="libs/pizza/0.2.2/js/pizza.js"></script>
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/directives/pizza.js"></script>
+
+</body>
+</html>

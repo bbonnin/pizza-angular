@@ -1,0 +1,31 @@
+ul[data-pie-id] li:nth-child(1) {
+    color: rgb(8,48,107);
+}
+
+ul[data-pie-id] li:nth-child(2) {
+    color: rgb(8,81,156);
+}
+
+ul[data-pie-id] li:nth-child(3) {
+    color: rgb(33,113,181);
+}
+
+ul[data-pie-id] li:nth-child(4) {
+    color: rgb(66,146,198);
+}
+
+ul[data-pie-id] li:nth-child(5) {
+    color: rgb(107,174,214);
+}
+
+ul[data-pie-id] li:nth-child(6) {
+    color: rgb(158,202,225);
+}
+
+ul[data-pie-id] li:nth-child(7) {
+    color: rgb(198,219,239);
+}
+
+ul[data-pie-id] li:nth-child(8) {
+    color: rgb(222,235,247);
+}
