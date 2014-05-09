@@ -2,7 +2,7 @@
 
 Angular directive for Zurb Pizza Pie Charts 
 
-To find more information about Pizza Pie Charts, consult [Zurb site](http://zurb.com/playground/pizza-pie-charts)
+To find more information about Pizza Pie Charts, consult the [Zurb page of "Pizza Pie Charts"](http://zurb.com/playground/pizza-pie-charts) et the [github](https://github.com/zurb/pizza/)
 
 
 ### First step : HTML
